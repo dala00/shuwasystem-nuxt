@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 export default {
   mode: 'universal',
   /*
@@ -27,7 +29,7 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: ['@/plugins/firebase.js'],
   /*
    ** Nuxt.js dev-modules
    */
@@ -36,6 +38,20 @@ export default {
    ** Nuxt.js modules
    */
   modules: [
+    [
+      '@nuxtjs/dotenv',
+      {
+        only: [
+          'FIREBASE_API_KEY',
+          'FIREBASE_AUTH_DOMAIN',
+          'FIREBASE_DATABASE_URL',
+          'FIREBASE_PROJECT_ID',
+          'FIREBASE_STORAGE_BUCKET',
+          'FIREBASE_MESSAGING_SENDER_ID',
+          'FIREBASE_APP_ID'
+        ]
+      }
+    ],
     // Doc: https://github.com/nuxt-community/modules/tree/master/packages/bulma
     '@nuxtjs/bulma',
     // Doc: https://axios.nuxtjs.org/usage
