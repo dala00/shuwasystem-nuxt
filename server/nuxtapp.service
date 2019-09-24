@@ -1,0 +1,12 @@
+[Unit]
+Description=Nuxt.js application
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/youruser/shuwasystem-nuxt
+ExecStart=/usr/bin/yarn start
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
