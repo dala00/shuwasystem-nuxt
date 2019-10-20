@@ -45,7 +45,7 @@
 
 <script>
 import * as firebase from 'firebase'
-import * as moment from 'moment'
+import moment from 'moment'
 const db = firebase.firestore()
 const postsRef = db.collection('posts')
 
