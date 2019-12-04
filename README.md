@@ -1,22 +1,19 @@
-# shuwa-nuxt
+# shuwasystem-nuxt
 
-> My best Nuxt.js project
+このリポジトリはNuxt.js + Firebase用のサンプルアプリケーションです。
 
-## Build Setup
+## 質問など
 
-``` bash
-# install dependencies
-$ yarn install
+質問、提案などはIssuesで行っていただく事ができます。困っているワードやエラーメッセージで検索していただくと過去の質問から解決方法を知ることができる場合がありますのでまずは検索を行ってみてください。見つからない場合はIssuesに書き込んでください。
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+筆者も空いている時間でIssuesの確認を行うため、すぐには回答できない場合があります。ご了承ください。
 
-# build for production and launch server
-$ yarn build
-$ yarn start
+もし質問などに回答できそうな方がいれば回答していただいて大丈夫です。
 
-# generate static project
-$ yarn generate
-```
+## 利用について
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+このアプリケーションを改造したり利用される場合、cloneしてローカルのGitでコミット等を行ってもここにpushすることは出来ません。自分のアプリケーションとして利用したい場合はForkを行ったり、新たにGitHubにpushするなどを行ってください。
+
+## License
+
+[MIT license](https://opensource.org/licenses/MIT)
