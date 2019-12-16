@@ -1,6 +1,6 @@
 # shuwasystem-nuxt
 
-このリポジトリはNuxt.js + Firebase用のサンプルアプリケーションです。
+このリポジトリは書籍「個人開発のための webサービス公開マニュアル」で利用しているNuxt.js + Firebase用のサンプルアプリケーションです。
 
 ## 質問など
 
